@@ -17,7 +17,7 @@ body {
   background-image: url("../public/image.PNG");
   width: 60%;
   height: 600px;
-  font-size: 100px;
+  font-size: 6vmax;
   animation: fadeIn 6.2s ease 0.3s 1 normal;
   text-align: center;
   margin-right: auto;
@@ -28,7 +28,7 @@ body {
 .about {
   margin-top: 60px;
   color: rgb(245, 234, 234);
-  font-size: 30px;
+  font-size: 3vmax;
   animation: fadeIn 6.2s ease 0.3s 1 normal;
   text-align: center;
   margin-right: auto;
@@ -39,8 +39,9 @@ body {
 
 .Infomation{
   margin-top: 60px;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
+
 }
 .map {
   margin-top: 60px;
@@ -68,4 +69,32 @@ body {
   100% {
     opacity: 1;
   } /*アニメーション終了時は不透明度100%*/
+}
+
+@media screen and (min-width:480px) { 
+  /*　画面サイズが480pxからはここを読み込む　*/
+  .media{
+    color: aqua;
+  }
+  .title {
+    width: 100%;
+  }
+}
+@media screen and (min-width:768px) and ( max-width:1024px) {
+  /*　画面サイズが768pxから1024pxまではここを読み込む　*/
+  .media{
+    color: rgb(18, 26, 26);
+  }
+  .title {
+    width: 60%;
+  }
+}
+@media screen and (min-width:1024px) {
+  /*　画面サイズが1024pxからはここを読み込む　*/
+  .media{
+    color: rgb(31, 90, 218);
+  }
+  .title {
+    width: 60%;
+  }
 }

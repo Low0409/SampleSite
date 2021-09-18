@@ -23,10 +23,8 @@ export default function Home() {
           <Infomation />
           <Point />
           <Footer />
-          
+          <h1 className="media">機種判定</h1>
       </div>
-
-
     </>
   )
 }
