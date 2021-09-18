@@ -14,3 +14,58 @@ a {
 * {
   box-sizing: border-box;
 }
+.Header {
+  width: 100%;
+  color: rgb(219, 217, 214);
+  background-color: rgb(35, 57, 59);
+}
+.title {
+  margin: 60px;
+  color: rgb(58, 209, 189);
+  background-image: url("../public/image.PNG");
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  font-size: 100px;
+  animation: fadeIn 6.2s ease 0.3s 1 normal;
+}
+
+.about {
+  margin: 60px;
+  color: rgb(245, 234, 234);
+  font-size: 30px;
+  width: 500px;
+  word-wrap: break-all;
+  animation: fadeIn 6.2s ease 0.3s 1 normal;
+}
+p {
+  word-break: break-all;
+}
+.Infomation{
+  margin: 60px;
+  font-size: 60px;
+  text-align: center;
+}
+.map {
+  margin: 60px;
+  animation: fadeIn 6.2s ease 0.3s 1 normal;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(53, 31, 3);
+  color: antiquewhite;
+}
+@keyframes fadeIn {
+  /*animation-nameで設定した値を書く*/
+  0% {
+    opacity: 0;
+  } /*アニメーション開始時は不透明度0%*/
+  100% {
+    opacity: 1;
+  } /*アニメーション終了時は不透明度100%*/
+}
