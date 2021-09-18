@@ -4,7 +4,7 @@ const About = () => {
     return (
         <>
             <div className="about">
-            <h3 className="about">-クライアントさんの紹介-</h3>
+            <h3>-クライアントさんの紹介-</h3>
 
                 <p>SampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSample</p>
 
