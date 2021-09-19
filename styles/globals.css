@@ -10,6 +10,11 @@ body {
   width: 100%;
   color: rgb(219, 217, 214);
   background-color: rgb(35, 57, 59);
+  position: relative;
+
+}
+.HeaderText{
+  text-align: right;
 }
 .title {
   margin-top: 70px;
@@ -71,7 +76,7 @@ body {
   } /*アニメーション終了時は不透明度100%*/
 }
 
-@media screen and (min-width:480px) { 
+@media screen and (min-width:280px) { 
   /*　画面サイズが480pxからはここを読み込む　*/
   .media{
     color: aqua;
@@ -86,7 +91,7 @@ body {
     color: rgb(18, 26, 26);
   }
   .title {
-    width: 60%;
+    width: 100%;
   }
 }
 @media screen and (min-width:1024px) {
