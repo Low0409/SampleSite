@@ -3,22 +3,19 @@ import Styles from '../../styles/Home.module.css'
 const Header = () => {
     return (
         <>
-          <div className="Header">
-          <span>
-                <div className={Styles.hamburgerMenu}>
-                    <input type="checkbox" className={Styles.menuBtnCheck} />
-                    <label htmlFor="menuBtnCheck" className={Styles.menuBtn}><span /></label>
-                    <div className={Styles.MenuContent}>
-                        <ul>
-                            <li><a href="#">メニューアイテム１</a></li>
-                            <li><a href="#">メニューアイテム２</a></li>
-                            <li><a href="#">メニューアイテム３</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </span>
-            <h1 className="HeaderText">Header</h1>
-          </div>
+<header className={Styles.header}>
+    <h1 className={Styles.title} >
+        <a href="/">Sample Site</a>
+    </h1>
+    <nav className={Styles.pcnav}>
+        <ul className={Styles.ula}>
+            <li className={Styles.ali}><a href="#about">ABOUT</a></li>
+            <li className={Styles.ali}><a href="#">SERVICE</a></li>
+            <li className={Styles.ali}><a href="#">COMPANY</a></li>
+            <li className={Styles.ali}><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
         </>
     )
 }

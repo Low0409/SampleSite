@@ -1,102 +1,29 @@
-/* ハンバーガーメニューのサイズ(32x32) */
-.hamburgerMenu{
-    vertical-align: center;
-    width: 32px;
-    height: 32px;
-  }
-  /* ハンバーガーメニューの位置と色 */
-  .menuBtn{
-    top: 20px;
-    left: 10px;
-    display: flex;
-    height: 50px;
-    width: 50px;
-    justify-content: center;
-    align-items: center;
-    z-index: 90;
-    background-color: #818881;
-    position: absolute;
-
-  }
-  /* メニュー線（本体と before と after で３本表示する） */
-  .menuBtn span,
-  .menuBtn span:before,
-  .menuBtn span:after{
-    /* 20x3 の白線 */
-    content: '';
-    display: block;
-    height: 3px;
-    width: 20px;
-    border-radius: 3px;
-    background-color: #ffffff;
-    position: absolute;
-  }
-  /* before を少し上にずらして描画 */
-  .menuBtn span:before{
-    bottom: 8px;
-  }
-  /* after を少し下にずらして描画 */
-  .menuBtn span:after{
-    top: 8px;
-  }
-  
-  /* メニューをオープンしたら三本線を×にする */
-  .menuBtnCheck:checked ~ .menuBtn span{
-    /* メニューオープン時は三本線の真ん中の線を透明にする */
-    background-color: rgba( 255, 255, 255, 0 ); 
-  }
-  .menuBtnCheck:checked ~ .menuBtn span::before{
-    /* メニューオープン時は三本線の上の線を 45 度傾ける */
-    bottom: 0;
-    transform: rotate( 45deg ); 
-  }
-  .menuBtnCheck:checked ~ .menuBtn span::after{
-    /* メニューオープン時は三本線の下の線を -45 度傾ける */
-    top: 0;
-    transform: rotate( -45deg ); 
-  }
-  /* チェックを非表示にする */
-  .menuBtn-check{
-    display: none;
-  }
-  
-  /* メニュー装飾 */
-  .MenuContent{
-    width: 60%;
-    height: 100%;
-    position: fixed;
-    top: 80;
-    left: -100%; /* メニューを画面外へ */
-    z-index: 80; /* 下のコンテンツの上にかぶせて表示する */
-    background-color: #627c62;
-    transition: all 0.5s; /* 0.5秒かけてアニメーションで出し入れする */
-  }
-  .MenuContent ul{
-    padding: 70px 10px 0;
-  }
-  .MenuContent ul li{
-    border-bottom: solid 1px #ffffff; /* メニューアイテムの区切り線 */
-    list-style: none;
-  }
-  .MenuContent ul li a{
-    display: block;
-    width: 100%;
-    font-size: 15px;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: #ffffff;
-    padding: 9px 15px 10px 0;
-    position: relative;
-  }
-  
-  /* メニューの出し入れ */
-  .menuBtnCheck:checked ~ .MenuContent{
-    left: 0;  /* チェックされたら画面内へ */
-  }
-  .menuBtnCheck{
-    color: #627c62;
-    position: absolute;
-    height: 60px;
-    width: 60px;
-
-  }
+.header {
+  box-sizing: border-box;
+ padding: 30px 4% 10px;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ background-color: rgb(246, 252, 245);
+ display: flex;
+ align-items: center;
+}
+.title {
+ margin: 0; padding: 0;
+ padding-bottom: 30px;
+ font-size: 30px;
+}
+.ali {	
+ text-decoration: none;
+ color: #4b4b4b;
+ margin: 0 0 0 15px;
+ font-size: 18px;
+}
+.pcnav {
+ margin: 0 0 0 auto;
+}
+.ula {
+ list-style: none;
+ margin: 0;
+ display: flex;
+}

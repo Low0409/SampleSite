@@ -6,18 +6,12 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.Header {
-  width: 100%;
-  color: rgb(219, 217, 214);
-  background-color: rgb(35, 57, 59);
-  position: relative;
 
-}
 .HeaderText{
   text-align: right;
 }
 .title {
-  margin-top: 70px;
+  margin-top: 60px;
   color: rgb(58, 209, 189);
   background-image: url("../public/image.PNG");
   width: 60%;
@@ -29,7 +23,9 @@ body {
   margin-left: auto;
 
 }
-
+.Sample{
+  padding-top: 250px;
+}
 .about {
   margin-top: 60px;
   color: rgb(245, 234, 234);
