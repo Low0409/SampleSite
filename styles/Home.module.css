@@ -4,20 +4,23 @@
  position: fixed;
  top: 0;
  width: 100%;
- background-color: rgb(246, 252, 245);
+ background-color: rgb(251, 254, 255);
  display: flex;
  align-items: center;
+ 
 }
 .title {
  margin: 0; padding: 0;
  padding-bottom: 30px;
  font-size: 30px;
+
 }
 .ali {	
  text-decoration: none;
  color: #4b4b4b;
  margin: 0 0 0 15px;
  font-size: 18px;
+ 
 }
 .pcnav {
  margin: 0 0 0 auto;
@@ -26,4 +29,10 @@
  list-style: none;
  margin: 0;
  display: flex;
+ 
+}
+.Title{
+  text-decoration: none;
+  font-size:55px;
+  color: #18e968;
 }
