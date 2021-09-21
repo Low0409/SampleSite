@@ -5,7 +5,7 @@ const Header = () => {
         <>
 <header className={Styles.header}>
     <h1 className={Styles.title} >
-        <a href="/">Sample Site</a>
+        <a href="/">Sample</a>
     </h1>
     <nav className={Styles.pcnav}>
         <ul className={Styles.ula}>
