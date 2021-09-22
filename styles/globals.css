@@ -11,17 +11,15 @@ body {
   text-align: right;
 }
 .title {
-  margin-top: 80px;
+  margin-top: 90px;
   color: rgb(58, 209, 189);
   background: no-repeat url("../public/image.PNG");
   width: 60%;
   height: 600px;
   font-size: 6vmax;
-  /* animation: fadeIn 6.2s ease 0.3s 1 normal; */
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-
 }
 .Sample{
   padding-top: 250px;
@@ -30,7 +28,6 @@ body {
   padding-top: 260px;
   color: rgb(245, 234, 234);
   font-size: 3vmax;
-  animation: fadeIn 1.2s ease 0.3s 1 normal;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -42,7 +39,12 @@ body {
   margin-top: 260px;
   font-size: 4vmax;
   text-align: center;
-
+}
+.infomationT{
+  text-shadow: 5px 5px 0 #41a5a8;
+}
+.point{
+  font-size: 2.5vmax;
 }
 .map {
   margin-top: 260px;

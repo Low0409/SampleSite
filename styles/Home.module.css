@@ -13,17 +13,13 @@
  margin: 0; padding: 0;
  padding-bottom: 30px;
  font-size: 30px;
+ text-shadow: 5px 5px 0 #b9b9b4;
 
 }
-.ali {	
- text-decoration: none;
- color: #4b4b4b;
- margin: 0 0 0 15px;
- font-size: 18px;
- 
-}
+
 .pcnav {
  margin: 0 0 0 auto;
+ 
 }
 .ula {
  list-style: none;
@@ -31,10 +27,20 @@
  display: flex;
  
 }
+.ali {	
+  text-decoration: none;
+  margin: 0 0 0 15px;
+  font-size: 1.4vmax;
+  color: #060a08;
+ }
+ .ali:hover {
+  color:#8d8db8;
+  text-decoration:underline;
+  }
 .Title{
   text-decoration: none;
   font-size:55px;
-  color: #18e968;
+  color: #748f7e;
 }
 @media screen and (min-width:280px) and ( max-width:668px) { 
   /*　画面サイズが480pxからはここを読み込む　*/

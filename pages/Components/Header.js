@@ -11,10 +11,10 @@ const Header = () => {
     </h1>
     <nav className={Styles.pcnav}>
         <ul className={Styles.ula}>
-            <li className={Styles.ali}><Link href="about"><a href="#about">ABOUT</a></Link></li>
-            <li className={Styles.ali}><Link href="service"><a href="#service">SERVICE</a></Link></li>
-            <li className={Styles.ali}><Link href="company"><a href="#company">COMPANY</a></Link></li>
-            <li className={Styles.ali}><Link href="contact"><a href="#contact">CONTACT</a></Link></li>
+            <li ><Link href="about"><a href="#about" className={Styles.ali}>ABOUT</a></Link></li>
+            <li ><Link href="service"><a href="#service" className={Styles.ali}>SERVICE</a></Link></li>
+            <li ><Link href="company"><a href="#company" className={Styles.ali}>COMPANY</a></Link></li>
+            <li ><Link href="contact"><a href="#contact" className={Styles.ali}>CONTACT</a></Link></li>
         </ul>
     </nav>
 </header>
