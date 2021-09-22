@@ -11,8 +11,8 @@ const contact = () => {
                     <h2>お問い合わせ</h2>
                     <p>0120-000000</p>
                     <p>Sample</p>
-                    <input style={{fontSize:`49px`,marginBottom:`20px`}}></input><br/>
-                    <textarea style={{fontSize:`49px`}}></textarea>
+                    <input style={{fontSize:`2vmax`,marginBottom:`20px`}}></input><br/>
+                    <textarea style={{fontSize:`3vmax`}}></textarea>
                     <p>xxxx@wwww.com</p>
 
                 </div>
