@@ -7,7 +7,7 @@ const About = () => {
             <h3>クライアントさんの紹介</h3>
 
                 <p>SampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSampleSample</p>
-
+                <a className="b">さらに詳しく</a>
             </div>
         </>
     )
