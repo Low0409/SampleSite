@@ -36,3 +36,16 @@
   font-size:55px;
   color: #18e968;
 }
+@media screen and (min-width:280px) and ( max-width:668px) { 
+  /*　画面サイズが480pxからはここを読み込む　*/
+  .Title {
+    font-size:25px;
+  }
+  .ali {	
+    text-decoration: none;
+    color: #4b4b4b;
+    margin: 0 0 0 15px;
+    font-size: 13px;
+    
+   }
+}
